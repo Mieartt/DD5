@@ -2,11 +2,11 @@ library ieee;
 use.ieee_std_logic_1164.all;
 entity youcef is
     port (
-        wednin : in std_logic;
-        fom : out std_logic
+        KHCHAM : in std_logic;
+        FOM    : out std_logic
     );
-architecture chbab of youcef is
+architecture chbab_YOUCEF of youcef is
 signal nice_hair : std_logic;
 signal head : std_logic;
 begin
-end chbab;
+end chbab_YOUCEF;
